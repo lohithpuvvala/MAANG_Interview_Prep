@@ -13,12 +13,12 @@ public class Q1 {
     public static void main(String[] args) {
         int[] arr = {1, 423, 6, 46, 34, 23, 13, 53, 4};
 
-        Solution sol = new Solution();
+        Q1Solution sol = new Q1Solution();
         System.out.println(sol.maxAndMinElement(arr));
     }
 }
 
-class Solution{
+class Q1Solution {
     public String maxAndMinElement(int[] nums){
         if(nums == null || nums.length == 0) return "No elements found in the array.";
 
